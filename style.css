@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f6f4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100wh;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+.left-content {
+    margin-right: 15px;
+    height: 100vh;
+}
+
+.left-image {
+    margin: 0;
+    height: 100vh;
+    width: 40wh;
+}
+
+.left-content .logo {
+    width: 100px;
+    height: 37px;
+    position: absolute;
+    left: 105px;
+    top: 53px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+.line {
+    border-top: 2px solid #000000;
+    margin: 10px;
+    width: 200px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.item li {
+    list-style-type: none;
+    margin-left: 85px;
+    color: #808080;
+}
+
+.item li:nth-child(1) {
+    color: #000000;
+    font-weight: 600;
+}
+
+.creative {
+    display: flex;
+    flex-direction: row;
+    padding: 160px 0;
+}
+
+.mid .text1 {
+    position: absolute;
+    top: 80px;
+    right: 700px;
+    color: #b4aaaa;
+    font-size: 95px;
+    font-weight: 900;
+    font-family: "Merriweather", serif;
+}
+
+.mid .text2 {
+    position: absolute;
+    top: 180px;
+    right: 550px;
+    color: #000000;
+    font-size: 95px;
+    font-weight: 900;
+    font-family: "Merriweather", serif;
+}
+
+
+
+.mid .text2::after {
+    content: ".";
+}
+
+.mid h3 {
+    position: absolute;
+    top: 220px;
+    right: 350px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #808080;
+}
+
+.side-bar-right {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 80px;
+
+}
+
+.social {
+    position: absolute;
+    top: 10px;
+    right: 80px;
+}
+
+.social img {
+    width: 15px;
+    margin-top: 25px;
+}
+
+
+.package {
+    position: absolute;
+    top: 240px;
+    right: 100px;
+    width: 200px;
+    height: 40px;
+    background-color: #000000;
+    color: #fff;
+}
+
+
+.bottom {
+    display: flex;
+    position: absolute;
+    top: 400px;
+    right: -10px;
+    padding: 190px 0;
+}
+
+
+.skills li {
+    position: relative;
+    bottom: 120px;
+    left: -300px;
+    list-style-type: none;
+    margin-top: 15px;
+    font-family: "poppins";
+
+}
+
+.dance {
+    position: relative;
+    bottom: 160px;
+    right: 150px;
+}
+
+.quotes {
+    font-size: 55px;
+    margin: 2px -15px;
+    width: 45px;
+}
+
+.dance .img2 {
+    object-fit: cover;
+    object-position: center;
+    height: 25vh;
+    width: 420px;
+}
+
+.arrow img {
+    position: relative;
+    bottom: 100px;
+    right: 70px;
+    height: 130px;
+
+}
